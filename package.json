@@ -1,0 +1,39 @@
+{
+  "name": "elm-delphi",
+  "version": "1.0.0",
+  "description": "Query for external dependency documentation for Elm 0.19",
+  "engines": {
+      "node": ">=8.9.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run": "tsc && node dist/delphi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r1sc/elm-delphi.git"
+  },
+  "bin": {
+      "elm-delphi": "bin/elm-delphi"
+  },
+  "files": [
+      "bin"
+  ],
+  "keywords": [
+      "elm",
+      "elm-delphi",
+      "elm-oracle",
+      "cli"
+  ],
+  "author": "Erik Sandberg",
+  "license": "MIT",  
+  "bugs": {
+    "url": "https://github.com/r1sc/elm-delphi/issues"
+  },
+  "homepage": "https://github.com/r1sc/elm-delphi#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "typescript": "^3.0.3"
+  }
+}
