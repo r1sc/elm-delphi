@@ -13,9 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/r1sc/elm-delphi.git"
   },
-  "bin": {
-      "elm-delphi": "bin/elm-delphi"
-  },
+  "bin": "./dist/elm-delphi.js",
   "files": [
       "bin"
   ],
